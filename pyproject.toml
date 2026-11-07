@@ -13,4 +13,4 @@ dependencies = ["yt-dlp>=2025.1.15", "requests>=2.32.0"]
 instagram = ["instaloader>=4.14"]
 
 [tool.setuptools]
-packages = ["socialsuite"]
+packages = ["socialsuite", "downloaders", "publishers", "analyzers"]
