@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "social-media-automation-suite"
+version = "0.1.0"
+description = "Modular media extraction, metadata analysis, and configurable social publishing toolkit"
+requires-python = ">=3.10"
+dependencies = ["yt-dlp>=2025.1.15", "requests>=2.32.0"]
+
+[project.optional-dependencies]
+instagram = ["instaloader>=4.14"]
+
+[tool.setuptools]
+packages = ["socialsuite"]
